@@ -1,0 +1,64 @@
+﻿:root {
+    --color-drk-blue: hsl(220, 15%, 55%);
+    --color-drkr-blue: hsl(218, 44%, 22%);
+    --color-cd: hsl(0, 0%, 100%);
+    --color-bk: hsl(212, 45%, 89%);
+    --color-drk-gray: hsl(228, 12%, 48%);
+
+    --ff-Outfit:'Outfit', sans-serif;
+
+    --radius1: 1.75rem;
+    --radius2: 0.875rem;
+}
+
+img {
+    display:block;
+    max-width:100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+html, body {
+    height: 100%;
+}
+* {
+    margin: 0;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    background: var(--color-bk);
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: var(--ff-Outfit);
+    font-weight: 400;
+}
+
+.card {
+    max-width: 285px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: var(--radius2);
+    background: var(--color-cd);
+    padding: 15px;
+}
+
+.card__img {
+    border-radius: var(--radius2);
+}
+
+.card__text{
+    padding:15px;
+    text-align:center;
+    display:grid;
+    gap:1rem;
+    margin: 10px 0;
+}
+
+.card__paragraph {
+    color: var(--color-drk-gray);
+}
